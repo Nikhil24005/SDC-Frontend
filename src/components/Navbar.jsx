@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import headerLogo from "/Logowhite.png";
 import BG from "/mesh-gradient.webp";
-import button from "../assets/buttons/icons.svg"
+import button from "../assets/buttons/Icons.svg"
 
 const navItems = [
   { label: "Home", path: "/" },
