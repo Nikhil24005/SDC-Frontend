@@ -1,0 +1,180 @@
+src
+├── api
+│   ├── Admin
+│   │   ├── ApplicationForm.js
+│   │   ├── Contact
+│   │   │   └── getContact.js
+│   │   ├── faq.js
+│   │   ├── login.js
+│   │   ├── People
+│   │   │   ├── deletePeople.js
+│   │   │   ├── getPeople.js
+│   │   │   ├── postPeople.js
+│   │   │   └── updatePeople.js
+│   │   ├── profile.js
+│   │   ├── Project
+│   │   │   ├── addProject.js
+│   │   │   ├── deleteProject.js
+│   │   │   ├── getProject.js
+│   │   │   └── updateProject.js
+│   │   └── Testimonial
+│   │       ├── addTestimonial.js
+│   │       ├── deleteTestimonial.js
+│   │       ├── getTestimonials.js
+│   │       └── updateTestimonial.js
+│   ├── API_INSTRUCTIONS.md
+│   ├── axios.js
+│   ├── config.js
+│   ├── gallery.js
+│   └── Public
+│       ├── faq.js
+│       ├── gallery.js
+│       ├── getAlumini.js
+│       ├── getGoldenAlumni.js
+│       ├── getPeople.js
+│       ├── getProjectDetails.js
+│       ├── getTestimonials.js
+│       ├── postApplication.js
+│       └── postContact.js
+├── App.css
+├── App.jsx
+├── assets
+│   ├── 404PageGIF
+│   │   ├── 404part-1.mp4
+│   │   └── 404part-2.mp4
+│   ├── add.png
+│   ├── alumni1.svg
+│   ├── alumni2.svg
+│   ├── alumni3.svg
+│   ├── attachicon.png
+│   ├── breakpoint=desktop, icon=external-link.svg
+│   ├── breakpoint=Tablet, icon=external-link.png
+│   ├── cancel.png
+│   ├── center.svg
+│   ├── Contact
+│   │   ├── instagramIcon.svg
+│   │   ├── linkedinIcon.svg
+│   │   └── plus.svg
+│   ├── cross.svg
+│   ├── delete.png
+│   ├── deleteIcon.svg
+│   ├── downbutton.svg
+│   ├── edit.png
+│   ├── edit.svg
+│   ├── eshaan.jpg
+│   ├── exported.png
+│   ├── ExportIcon.svg
+│   ├── GitIcon.svg
+│   ├── Group.svg
+│   ├── hide.png
+│   ├── icon.svg
+│   ├── Icons.png
+│   ├── imail.svg
+│   ├── img.png
+│   ├── img1.svg
+│   ├── img2.svg
+│   ├── img3.svg
+│   ├── img4.svg
+│   ├── instagram.webp
+│   ├── key.png
+│   ├── laptopimg.svg
+│   ├── leftarrow.svg
+│   ├── leftimage.svg
+│   ├── linkeldin.png
+│   ├── location.png
+│   ├── logo.png
+│   ├── logout.png
+│   ├── LogoWhite.png
+│   ├── mail.png
+│   ├── map.svg
+│   ├── medi1.svg
+│   ├── mesh-gradient .webp
+│   ├── mesh-gradient.webp
+│   ├── partner1.svg
+│   ├── partner2.svg
+│   ├── pencil.png
+│   ├── phone.png
+│   ├── PlusButton.svg
+│   ├── profile button.png
+│   ├── profile1.jpg
+│   ├── project.png
+│   ├── resumeIcon.svg
+│   ├── rightarrow.svg
+│   ├── RightIcon.svg
+│   ├── rightimage.svg
+│   ├── save.png
+│   ├── SDCframe.svg
+│   ├── setting.svg
+│   ├── Support.png
+│   ├── Testimonial1.svg
+│   ├── Testimonial2.svg
+│   ├── upbutton.svg
+│   └── Vectormail.png
+├── auth
+│   ├── AuthContext.jsx
+│   └── PrivateRoute.jsx
+├── components
+│   ├── ApplicationFormNew.jsx
+│   ├── Footer.jsx
+│   ├── JoinCard.jsx
+│   ├── MentorCard.jsx
+│   └── Navbar.jsx
+├── index.css
+├── layout
+│   ├── AdminLayout.jsx
+│   └── MainLayout.jsx
+├── main.jsx
+├── pages
+│   ├── admin
+│   │   ├── AdminProfile.jsx
+│   │   ├── CareerPage.jsx
+│   │   ├── FAQSection.jsx
+│   │   ├── Gallery.jsx
+│   │   ├── Header.jsx
+│   │   ├── Login.jsx
+│   │   ├── PeoplePage.jsx
+│   │   ├── Project.jsx
+│   │   ├── Services.jsx
+│   │   ├── Sidebar.jsx
+│   │   └── Testimonial.jsx
+│   └── public
+│       ├── About
+│       │   ├── AboutLayout.jsx
+│       │   ├── GoldenAlumni.jsx
+│       │   ├── Overview.jsx
+│       │   ├── PartnersAndTeam.jsx
+│       │   ├── RootCenterMedi.jsx
+│       │   └── SlidingCards.jsx
+│       ├── Career
+│       │   └── Career.jsx
+│       ├── Contact
+│       │   └── Contact.jsx
+│       ├── Gallery
+│       │   └── Gallery.jsx
+│       ├── Home
+│       │   ├── Content.jsx
+│       │   ├── FeatureProject.jsx
+│       │   ├── HeroSection.jsx
+│       │   ├── HomeLayout.jsx
+│       │   ├── IgniteIdeaSection.jsx
+│       │   ├── Services.jsx
+│       │   └── Testimonials.jsx
+│       ├── NotFound.jsx
+│       ├── People
+│       │   ├── AlumniCards.jsx
+│       │   ├── FacultyCards.jsx
+│       │   ├── PeopleLayout.jsx
+│       │   └── TeamCards.jsx
+│       ├── People-backup
+│       │   ├── AlumniCards.jsx
+│       │   ├── FacultyCards.jsx
+│       │   └── PeopleLayout.jsx
+│       ├── Services
+│       │   └── Services.jsx
+│       └── Work
+│           ├── ProjectDetails.jsx
+│           └── Work.jsx
+└── routes
+    └── AppRoutes.jsx
+
+27 directories, 151 files
